@@ -2,15 +2,15 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   const images = [
-    "/images/img1.jpg",
-    "/images/img2.jpg",
-    "/images/img3.jpg",
-    "/images/im1.jpg",
+    "/images/Service.jpg",
+    "/images/damage.jpg",
+    "/images/im25.jpg",
     "/images/im2.jpg",
     "/images/im15.jpg",
     "/images/im4.jpg",
-    "/images/im10.jpg",
+    "/images/truck.jpg",
     "/images/im6.jpg",
+    "/images/bike.jpg"
   ];
 
   const fadeInUp = {
@@ -51,26 +51,27 @@ const Services = () => {
         >
           Govind Express Way offers 24/7 reliable towing and roadside assistance services in Navi Mumbai — whether it's an emergency breakdown, accident recovery, or scheduled vehicle transport, we are your trusted towing partner across Navi Mumbai and nearby areas.
         </motion.p>
+<motion.ul
+  className="list-disc list-inside text-xl space-y-4 font-bold text-gray-800 mb-12 max-w-2xl text-left"
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true }}
+  variants={fadeInUp}
+  custom={2}
+>
+  {[
+    "Hydraulic lifter towing in Navi Mumbai is used for normal breakdown cars",
+    "Winch machine towing in Navi Mumbai is used for accident cars or pothole recovery",
+    "Bike towing in Navi Mumbai is available for accidental or breakdown bikes/scooters",
+    "Flatbed or zero-degree towing in Navi Mumbai is ideal for costly or premium cars",
+    "Heavy vehicle towing in Navi Mumbai handles all types of buses, trucks, and commercial vehicles",
+    "Battery jump-start service in Navi Mumbai helps when your car battery is dead",
+    "Bike Towing for all kind of bike and scooty",
+  ].map((service, index) => (
+    <li key={index}>{service}</li>
+  ))}
+</motion.ul>
 
-        <motion.ul
-          className="list-disc list-inside text-xl space-y-4 font-semibold text-gray-800 mb-12 max-w-2xl"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-          custom={2}
-        >
-          {[
-            "Hydraulic lifter towing in Navi Mumbai is used for normal breakdown cars",
-            "Winch machine towing in Navi Mumbai is used for accident cars or pothole recovery",
-            "Bike towing in Navi Mumbai is available for accidental or breakdown bikes/scooters",
-            "Flatbed or zero-degree towing in Navi Mumbai is ideal for costly or premium cars",
-            "Heavy vehicle towing in Navi Mumbai handles all types of buses, trucks, and commercial vehicles",
-            "Battery jump-start service in Navi Mumbai helps when your car battery is dead",
-          ].map((service, index) => (
-            <li key={index}>✓ {service}</li>
-          ))}
-        </motion.ul>
 
         <motion.p
           className="text-lg text-gray-600 font-medium max-w-3xl leading-relaxed"
@@ -117,7 +118,9 @@ const Services = () => {
             <img
               src={src}
               alt={`Navi Mumbai towing service ${index + 1}`}
-              className="w-full h-72 object-cover hover:brightness-105 transition"
+              className={`w-full h-72 ${
+                index === 0 ? "object-contain" : "object-cover"
+              } hover:brightness-105 transition`}
             />
           </motion.div>
         ))}

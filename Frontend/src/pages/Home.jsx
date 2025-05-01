@@ -27,7 +27,7 @@ const Home = () => {
         className="h-screen bg-cover bg-center flex items-center justify-center text-white px-6 relative"
         style={{
           backgroundImage:
-            "url('https://t4.ftcdn.net/jpg/01/58/77/37/360_F_158773728_EC76CqwK8wh5eF2eiM4T3cKA6DpMD5ZH.jpg')",
+            "url('/images/Background.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
