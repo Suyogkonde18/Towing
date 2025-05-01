@@ -9,14 +9,14 @@ const Home = () => {
   return (
     <div className="w-full">
       <Helmet>
-        <title>Govind Towing Services | 24/7 Emergency Towing in Pune</title>
+        <title>Govind Towing Services | 24/7 Emergency Towing in Navi Mumbai</title>
         <meta
           name="description"
-          content="Govind Towing offers reliable and fast roadside assistance and towing services in Pune. Available 24/7 to get you back on the road safely."
+          content="Govind Towing offers reliable and fast roadside assistance and towing services in Navi Mumbai. Available 24/7 to get you back on the road safely."
         />
         <meta
           name="keywords"
-          content="towing services Pune, emergency roadside help, 24/7 towing, Govind Towing, vehicle recovery Pune"
+          content="towing services Navi Mumbai, emergency roadside help, 24/7 towing, Govind Towing, vehicle recovery Navi Mumbai"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.govindtowing.com/" />
@@ -43,7 +43,7 @@ const Home = () => {
             24/7 Emergency Service
           </span>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6">
-            Fast & Reliable Towing Services in Pune <br />
+            Fast & Reliable Towing Services in Navi Mumbai <br />
             When You Need It Most
           </h1>
           <p className="text-base sm:text-lg mb-8 font-medium px-2 sm:px-4">

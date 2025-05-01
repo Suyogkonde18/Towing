@@ -26,7 +26,7 @@ const Footer = () => {
           <h3 className="text-xl mb-4 font-semibold">Contact Us</h3>
           <ul className="space-y-3">
             <li className="flex items-center gap-3 text-lg">
-              <FaPhoneAlt className="text-yellow-400" /> +91-9876543210
+              <FaPhoneAlt className="text-yellow-400" /> +91-9321202789
             </li>
             <li className="flex items-center gap-3 text-lg">
               <FaEnvelope className="text-yellow-400" /> support@towingservices.com

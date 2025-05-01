@@ -38,7 +38,7 @@ const Services = () => {
           variants={fadeInUp}
           custom={0}
         >
-          🚗 Our Towing Services in Pune
+          🚗 Our Towing Services in Navi Mumbai
         </motion.h1>
 
         <motion.p
@@ -49,7 +49,7 @@ const Services = () => {
           variants={fadeInUp}
           custom={1}
         >
-          Govind Express Way offers 24/7 reliable towing and roadside assistance services in Pune — whether it's an emergency breakdown, accident recovery, or scheduled vehicle transport, we are your trusted towing partner across Pune and nearby areas.
+          Govind Express Way offers 24/7 reliable towing and roadside assistance services in Navi Mumbai — whether it's an emergency breakdown, accident recovery, or scheduled vehicle transport, we are your trusted towing partner across Navi Mumbai and nearby areas.
         </motion.p>
 
         <motion.ul
@@ -61,12 +61,12 @@ const Services = () => {
           custom={2}
         >
           {[
-            "Hydraulic lifter towing in Pune is used for normal breakdown cars",
-            "Winch machine towing in Pune is used for accident cars or pothole recovery",
-            "Bike towing in Pune is available for accidental or breakdown bikes/scooters",
-            "Flatbed or zero-degree towing in Pune is ideal for costly or premium cars",
-            "Heavy vehicle towing in Pune handles all types of buses, trucks, and commercial vehicles",
-            "Battery jump-start service in Pune helps when your car battery is dead",
+            "Hydraulic lifter towing in Navi Mumbai is used for normal breakdown cars",
+            "Winch machine towing in Navi Mumbai is used for accident cars or pothole recovery",
+            "Bike towing in Navi Mumbai is available for accidental or breakdown bikes/scooters",
+            "Flatbed or zero-degree towing in Navi Mumbai is ideal for costly or premium cars",
+            "Heavy vehicle towing in Navi Mumbai handles all types of buses, trucks, and commercial vehicles",
+            "Battery jump-start service in Navi Mumbai helps when your car battery is dead",
           ].map((service, index) => (
             <li key={index}>✓ {service}</li>
           ))}
@@ -80,7 +80,7 @@ const Services = () => {
           variants={fadeInUp}
           custom={3}
         >
-          Our professional Pune-based towing team uses modern equipment to ensure safe and fast recovery of your vehicle. No matter the situation, your vehicle is in expert hands in Pune.
+          Our professional Navi Mumbai-based towing team uses modern equipment to ensure safe and fast recovery of your vehicle. No matter the situation, your vehicle is in expert hands in Navi Mumbai.
         </motion.p>
       </div>
 
@@ -93,7 +93,7 @@ const Services = () => {
         variants={fadeInUp}
         custom={4}
       >
-        📸 Our Towing Gallery in Pune
+        📸 Our Towing Gallery in Navi Mumbai
       </motion.h2>
 
       {/* Photo Gallery Grid */}
@@ -116,7 +116,7 @@ const Services = () => {
           >
             <img
               src={src}
-              alt={`Pune towing service ${index + 1}`}
+              alt={`Navi Mumbai towing service ${index + 1}`}
               className="w-full h-72 object-cover hover:brightness-105 transition"
             />
           </motion.div>
