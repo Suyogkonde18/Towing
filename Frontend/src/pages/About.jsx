@@ -5,13 +5,26 @@ const About = () => (
     <div className="container mx-auto text-center">
       {/* Title Section */}
       <motion.h2
-        className="text-5xl font-bold tracking-wider mb-12 text-blue-600 font-poppins"
+        className="text-5xl font-bold tracking-wider mb-6 text-blue-600 font-poppins"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
         About Govind Towing – Trusted Towing Service in Navi Mumbai
       </motion.h2>
+
+      {/* Trust Badge */}
+      <motion.div
+  className="mb-10 inline-block bg-white text-blue-700 px-8 py-4 rounded-full border-4 border-blue-400 font-semibold shadow-xl hover:scale-105 transform transition-all duration-300"
+  initial={{ scale: 0.8, opacity: 0 }}
+  animate={{ scale: 1, opacity: 1 }}
+  transition={{ duration: 1, delay: 0.4 }}
+>
+  <span className="text-3xl font-bold">
+    Trusted Since 1990 – 32+ Years of Reliable Service in Navi Mumbai!
+  </span>
+</motion.div>
+
 
       {/* Introduction Section */}
       <motion.p
@@ -32,7 +45,7 @@ const About = () => (
       >
         <h3 className="text-3xl font-extrabold mb-4 text-green-600 font-poppins">Our History in Navi Mumbai</h3>
         <p className="text-lg text-gray-700 font-roboto">
-          Established in 2010, Govind Towing has grown into one of Navi Mumbai’s most trusted providers of towing and roadside assistance. With years of experience across the city, we’ve earned a reputation for excellence in vehicle recovery services in Navi Mumbai.
+          Established in 1990, Govind Towing has proudly served Navi Mumbai for over 32 years, becoming one of the most trusted providers of towing and roadside assistance. With decades of experience across the city, we’ve earned a reputation for excellence in vehicle recovery services in Navi Mumbai.
         </p>
       </motion.div>
 
